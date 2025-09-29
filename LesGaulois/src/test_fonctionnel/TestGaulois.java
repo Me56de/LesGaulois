@@ -3,6 +3,7 @@ package test_fonctionnel;
 import personnages.Gaulois;
 
 public class TestGaulois {
+	
 
 	public static void main(String[] args) {
 		
@@ -16,5 +17,15 @@ public class TestGaulois {
 				+ "sangliers ?");
 		
 		Astérix.parler("Oui très bonne idée.");
+		
+		Romain Minus = new Romain("Minus", 6);
+		
+		
+		
+		System.out.println("Dans la forêt" );
 	}
+	
+	
+	
+	
 }
