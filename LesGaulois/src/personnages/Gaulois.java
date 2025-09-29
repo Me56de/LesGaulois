@@ -17,8 +17,9 @@ public class Gaulois {
 	public void parler(String texte) {
 		System.out.println(prendreParole() + "\"" + texte +"\"");
 	}
-	
-	// TODO private String prendreParole() {
-	// TODO return "Le gaulois " + nom + " : ";}
 
+	private String prendreParole() {
+		return "Le gaulois " + nom + " : ";
+	}
+	
 }
