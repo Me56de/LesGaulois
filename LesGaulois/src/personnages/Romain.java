@@ -21,8 +21,12 @@ public class Romain {
 		
 	}
 
-
 	private String prendreParole() {
-		return "Le romain " + nom + " : ";
+		return "Le romain " + this.nom + " : ";
+	}
+	
+	public void recevoirCoup(int forceCoup) {
+		this.force = this.force - forceCoup;
+		
 	}
 }
