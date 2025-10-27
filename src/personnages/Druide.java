@@ -41,5 +41,4 @@ public class Druide {
 			parler("Désolé " + gaulois.getNom() + " il n'y a plus une seule goutte de potion");
 		}
 	}
-
 }

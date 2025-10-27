@@ -36,10 +36,8 @@ public class Gaulois {
 	}
 
 	public void frapper(Romain romain) {
-
 		System.out.println(nom + " envoie un grand coup dans la mâchoire de " + romain.getNom());
 		romain.recevoirCoup(force * effetPotion / 3);
-
 	}
 
 	public void setVillage(Village village) {
@@ -51,7 +49,6 @@ public class Gaulois {
 	}
 
 	public void sePresenter() {
-
 		if (village != null && this.equals(village.getChef())) {
 			System.out.println("Le Gaulois " + nom + " : \"Bonjour, je m'appelle " + nom
 					+ ". Je suis le chef du village " + village.getNom() + ".\"");
